@@ -8,6 +8,6 @@
 
 after_initialize do
 	Discourse::Application.configure do
-		config.action_mailer.smtp_settings=[]
+		config.action_mailer.smtp_settings={}
 	end
 end
